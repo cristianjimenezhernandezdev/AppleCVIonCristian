@@ -14,30 +14,23 @@ struct ContentView: View {
         TabView{
             Homepage()
                 .tabItem{
-                    Label("Homepage",systemImage: "house")
+                    Label("Pàgina d'inici",systemImage: "house")
                         
                 }.toolbarBackground(
                     Color.yellow,
                     for: .tabBar)
 
-            Projects()
-                .tabItem{
-                    Label("Projects",systemImage: "book")
-                    
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
-            Certifications()
-                .tabItem{
-                    Label("Certifications",systemImage: "map")
-                    
-                }.toolbarBackground(
-                    Color.yellow,
-                    for: .tabBar)
-            Goals()
+            DevicesView()
                 .environment(\.managedObjectContext, manager.container.viewContext)
                 .tabItem{
-                    Label("Goals",systemImage: "star")
+                    Label("Dispositius",systemImage: "iphone")
+                    
+                }.toolbarBackground(
+                    Color.yellow,
+                    for: .tabBar)
+            Projects()
+                .tabItem{
+                    Label("Projectes",systemImage: "book")
                         
                     
                 }.toolbarBackground(

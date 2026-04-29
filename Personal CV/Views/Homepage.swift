@@ -25,20 +25,20 @@ struct Homepage: View {
                            
                            
                            VStack(spacing: 5){
-                               Text("Nikos Galinos")
+                               Text("Cristian Jiménez Hernández")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 21, weight: .bold))
                                
                                
-                               Text("Software Engineer")
+                               Text("Desenvolupador Junior")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                
-                               Text("iOS Dev-Java BackEnd")
+                               Text("C# Backend / Frontend")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 12, weight: .light))
                                
-                               Text("📫 ngalinos95@me.com")
+                               Text("EMAIL: cristian.jimenez@email.com")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 11, weight: .regular))
                                
@@ -49,16 +49,7 @@ struct Homepage: View {
                    }
                    Group{
                        HStack(spacing:40){
-                           Link("LinkedIn", destination: URL(string: "https://www.linkedin.com/in/nikosgalinos")!)
-                               .foregroundColor(Color.white)
-                               .font(.system(size: 16, weight: .regular))
-                           
-                           Link("Github", destination: URL(string: "https://github.com/ngalinos95")!)
-                               .foregroundColor(Color.white)
-                               .font(.system(size: 16, weight: .regular))
-                           
-                           
-                           Link("HackerRank", destination: URL(string: "https://www.hackerrank.com/ngalinos95?hr_r=1")!)
+                           Link("Github", destination: URL(string: "https://github.com/cristianjimenezhernandezdev")!)
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                        }.scaledToFit()
@@ -66,7 +57,7 @@ struct Homepage: View {
                    }
                    Group{
                        HStack{
-                           Text("Expirience & Qualifiacations")
+                           Text("Experiencia i Formació")
                                .foregroundColor(Color.white)
                                .font(.system(size: 20, weight: .bold))
                            
@@ -75,22 +66,14 @@ struct Homepage: View {
                        
                        
                        HStack{
-                           Text("✅ Strong Object Oriented Programming (OOP),understading Data Structures")
+                           Text("✅ Suport Tècnic i manteniment informàtic")
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                            Spacer()
                            
                        }.padding(.bottom,8)
                        HStack{
-                           Text("✅ Excellent experience on time management and problem solving using agile practices")
-                               .foregroundColor(Color.white)
-                               .font(.system(size: 16, weight: .regular))
-                           Spacer()
-                           
-                       }.padding(.bottom,8)
-                       
-                       HStack{
-                           Text("✅ Ability to learn new technologies/frameworks fast")
+                           Text("✅ Treball amb PostgreSQL i Integració amb aplicacions")
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                            Spacer()
@@ -98,7 +81,7 @@ struct Homepage: View {
                        }.padding(.bottom,8)
                        
                        HStack{
-                           Text("✅Strong knowledge and experience in personal projects with Java and Pyhon")
+                           Text("✅ Participació en el desenvolupament de projectes amb Kotlin Multiplatform")
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                            Spacer()
@@ -106,7 +89,7 @@ struct Homepage: View {
                        }.padding(.bottom,8)
                        
                        HStack{
-                           Text("✅ 2 Years experience in Mecahncial Engineer large scale projects and multimember teams")
+                           Text("✅ Coneixements Bàsics de API REST i integració de serveis")
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                            Spacer()
@@ -114,7 +97,7 @@ struct Homepage: View {
                        }.padding(.bottom,8)
                        
                        HStack{
-                           Text("✅ Excellent knowledge of English with previous experience on multinational projects")
+                           Text("✅ Implementació d'operacions CRUD")
                                .foregroundColor(Color.white)
                                .font(.system(size: 16, weight: .regular))
                            Spacer()
@@ -130,7 +113,7 @@ struct Homepage: View {
                            }.padding()
                            
                            HStack{
-                               Text("👨‍💻 Programming:Swift,Java ,Python,basics on SQL")
+                               Text("👨‍💻 Programació: C#, Kotlin, SQL")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -138,7 +121,7 @@ struct Homepage: View {
                            }.padding(.bottom,8)
                            
                            HStack{
-                               Text("🛠️ Frameworks Java Backend:Spring-SpringBoot- Spring Secirity ")
+                               Text("🛠️ Desenvolupament amb Jetpack Compose")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -146,7 +129,7 @@ struct Homepage: View {
                            }.padding(.bottom,8)
                            
                            HStack{
-                               Text("🛠️ Other Frameworks:SwiftUI- Swing (Java GUI)-Streamlit (Python)")
+                               Text("🛠️ Ús de Unity en el desenvolupament de Videojocs")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -154,7 +137,7 @@ struct Homepage: View {
                            }.padding(.bottom,8)
                            
                            HStack{
-                               Text("🗄️ Databases knowledge: Hands on projects on JDBC[ MySQL,SQLite and H2 databases")
+                               Text("Desenvolupament Frontend: React.js")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -162,7 +145,7 @@ struct Homepage: View {
                            }.padding(.bottom,8)
                            
                            HStack{
-                               Text("📊 Data Visulization and Modeling: Matlab")
+                               Text("📊 Nocions Swift, iOS")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -172,7 +155,7 @@ struct Homepage: View {
                         
                            
                            HStack{
-                               Text("🎟 Workflow Software: Hands on knowledge of Jira and Confluence fundamentals")
+                               Text("🎟 Workflow Software: Jira i Confluence")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -180,7 +163,7 @@ struct Homepage: View {
                            }.padding(.bottom,8)
                            
                            HStack{
-                               Text("Work History")
+                               Text("Experiència Laboral")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 20, weight: .bold))
                                Spacer()
@@ -193,7 +176,7 @@ struct Homepage: View {
                        Group{
                            
                            HStack{
-                               Text("👷🏻‍♂️ Mechanical Engineer| TEAM E-M Consulting Engineers SA")
+                               Text("👷🏻‍♂️ Informàtic | Sancho")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight:.bold))
                                Spacer()
@@ -201,7 +184,7 @@ struct Homepage: View {
                            }.padding(.bottom,15)
                            
                            HStack{
-                               Text("11/2020 - 11/2022")
+                               Text("11/2017 - 11/2020")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 14, weight:.regular))
                                Spacer()
@@ -209,7 +192,7 @@ struct Homepage: View {
                            }.padding(.bottom,15)
                            
                            HStack{
-                               Text("► Used Agile Practices on managing large scale MEP projects")
+                               Text("► Gestió i ús de l'ERP Sage")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -217,7 +200,7 @@ struct Homepage: View {
                            }.padding(.bottom,6)
                            
                            HStack{
-                               Text("► Followed and led teams on MEP projects")
+                               Text("► Manteniment i edició de pàgines web corporatives")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -225,7 +208,7 @@ struct Homepage: View {
                            }.padding(.bottom,6)
                            
                            HStack{
-                               Text("► Strengthened time management skills through managing multiple projects,prioritizing based on the needs and schedules")
+                               Text("► Programació en VBA per a l'automatització de tasques")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -233,7 +216,7 @@ struct Homepage: View {
                            }.padding(.bottom,6)
                            
                            HStack{
-                               Text("► Worked as a team player on large projects which involved many engineering groups.")
+                               Text("► Creació i manteniment de catàlegs en línia i gestió de la botiga en línia a PrestaShop.")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight: .regular))
                                Spacer()
@@ -245,7 +228,7 @@ struct Homepage: View {
                        }
                        Group{
                            HStack{
-                               Text("Education")
+                               Text("Educació")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 20, weight: .bold))
                                Spacer()
@@ -255,7 +238,7 @@ struct Homepage: View {
                          
                            
                            HStack{
-                               Text("🎓 Aristotle University of Thessaloniki | Master Of Engineering")
+                               Text("🎓 Universitat de Girona")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 16, weight:.regular))
                                Spacer()
@@ -265,7 +248,7 @@ struct Homepage: View {
                            
                            
                            HStack{
-                               Text("MEng | Mechanical Engineering")
+                               Text("Grau en Psicologia")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 14, weight: .regular))
                                Spacer()
@@ -273,7 +256,7 @@ struct Homepage: View {
                            }.padding(.bottom,6)
                            
                            HStack{
-                               Text("2014 -2020")
+                               Text("2011 -2015")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 14, weight: .regular))
                                Spacer()
@@ -281,20 +264,13 @@ struct Homepage: View {
                            }.padding(.bottom,18)
                            
                            HStack{
-                               Text("A university that formulates structured and disciplined way of thinking. It turns general knowledge into science focusing on methodology of problem solving. It opens horizons and turns general knowledge into science focusing on methodology of problem solving. It deepens the research and creates a starting point for a new professional who wants to give efficient solutions to any given problem.")
+                               Text("Grau en psicologia amb Formació en analisi del comportament, habilitats comunicatives i gestió de persones ")
                                    .foregroundColor(Color.white)
                                    .font(.system(size: 13, weight: .regular))
                                Spacer()
                                
                            }.padding(.bottom,6)
                            
-                           HStack{
-                               Text("The fields of my studies cover mathematics, mechanics, engineering drawing, physics, computing, Programming in Matlab,mechanical systems, thermodynamics, fluid mechanics, E/M energy conversion systems, Machine Dynamics, Hydraulic and pneumatic systems, Automation control systems, Operational Research, Industrial statistics, management information systems, industrial electronics, Air-conditioning, production planning, ergonomics among others.")
-                                   .foregroundColor(Color.white)
-                                   .font(.system(size: 13, weight: .regular))
-                               Spacer()
-                               
-                           }.padding(.bottom,6)
                            
                            
                            
